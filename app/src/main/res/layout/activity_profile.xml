@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+   <ImageView
+       android:id="@+id/imgTonyStark"
+       android:layout_width="120dp"
+       android:layout_height="120dp"
+         android:src="@drawable/tony_stark_new"
+           android:layout_margin="20dp"
+       />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/imgTonyStark"
+        android:text="Tony Stark"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TxtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="7dp"
+        android:layout_toRightOf="@id/imgTonyStark"
+        android:text="tonystark@gmail.com"
+        android:textColor="#000000"
+        android:textSize="18sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TxtEmail"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="24dp"
+        android:layout_toRightOf="@id/imgTonyStark"
+        android:text="+91 1111155555"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnMoreInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MORE INFORMATION"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_below="@id/imgTonyStark"
+        android:background="#0d47a1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnExitApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXIT THE APP"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#ff1744"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
